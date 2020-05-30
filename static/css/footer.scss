@@ -1,0 +1,25 @@
+@import "base.scss";
+
+
+footer#footer{
+    width: 100%;
+    margin: 0 auto;
+    height: 10px;
+    position:fixed;
+    left:0;
+    bottom:0;
+}
+
+
+footer.pink {
+    border-top: 4px solid nth($mainColor,2);
+    background: nth($mainColor,3);
+    color: nth($mainColor,3);
+}
+
+
+footer.blue {
+    border-top: 3px solid #4BD9FF;
+    background: #2286FF;
+    color: #b0fffa;
+}
